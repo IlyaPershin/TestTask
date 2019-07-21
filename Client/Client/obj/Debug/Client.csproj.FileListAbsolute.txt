@@ -1,0 +1,7 @@
+D:\YandexDisk\Илья\TestTask\Client\Client\bin\Debug\Client.exe.config
+D:\YandexDisk\Илья\TestTask\Client\Client\bin\Debug\Client.exe
+D:\YandexDisk\Илья\TestTask\Client\Client\bin\Debug\Client.pdb
+D:\YandexDisk\Илья\TestTask\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+D:\YandexDisk\Илья\TestTask\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\YandexDisk\Илья\TestTask\Client\Client\obj\Debug\Client.exe
+D:\YandexDisk\Илья\TestTask\Client\Client\obj\Debug\Client.pdb

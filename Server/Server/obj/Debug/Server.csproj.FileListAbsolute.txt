@@ -1,0 +1,7 @@
+D:\YandexDisk\Илья\TestTask\Server\Server\bin\Debug\Server.exe.config
+D:\YandexDisk\Илья\TestTask\Server\Server\bin\Debug\Server.exe
+D:\YandexDisk\Илья\TestTask\Server\Server\bin\Debug\Server.pdb
+D:\YandexDisk\Илья\TestTask\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\YandexDisk\Илья\TestTask\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\YandexDisk\Илья\TestTask\Server\Server\obj\Debug\Server.exe
+D:\YandexDisk\Илья\TestTask\Server\Server\obj\Debug\Server.pdb
