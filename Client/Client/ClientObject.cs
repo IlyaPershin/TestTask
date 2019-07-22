@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Net;
 using System.Net.Sockets;
 
@@ -25,10 +25,10 @@ namespace Client
         public void SendMessage()
         {
             TcpClient client = null;
-            try
+            bool correctAnswer = false;
+            while (!correctAnswer)
             {
-                bool correctAnswer = false;
-                while (!correctAnswer)
+                try
                 {
                     client = new TcpClient(address, port);
                     NetworkStream stream = client.GetStream();
@@ -56,17 +56,14 @@ namespace Client
                         Console.WriteLine("{0}: {1}", fileName, message);
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                if (client != null)
-                    client.Close();
-            }
+                catch (Exception ex)
+                {
+                    Thread.Sleep(100);
+                }
 
+            }
+            if (client != null)
+                client.Close();
             return;
         }
     }

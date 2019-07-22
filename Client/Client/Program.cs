@@ -12,7 +12,7 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            int n = 5;
+            int n = 127;
             Thread[] threads = new Thread[n];
             //Key- Имя файла
             //Value- Путь к файлу
@@ -54,7 +54,7 @@ namespace Client
                 bool isAlive = false;
                 for (int i = 0; i < n && !isAlive; i++)
                 {
-                    isAlive = isAlive || threads[i].IsAlive;
+                    isAlive = isAlive || threads[i] != null && threads[i].IsAlive;
                 }
                 isSomeAlive = isAlive;
             }
